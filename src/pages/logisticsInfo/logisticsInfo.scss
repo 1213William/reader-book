@@ -1,0 +1,100 @@
+page {
+  background-color: #fff;
+}
+.logistics-info {
+  .info-wrapper {
+    width: 702px;
+    margin: 0 auto;
+    .info-header {
+      display: flex;
+      .header-left {
+        margin-top: 12px;
+      }
+      .header-right {
+        margin-left: 12px;
+        .right-top {
+          height: 60px;
+          display: flex;
+          align-items: center;
+          .top-name {
+            font-weight: bold;
+            color: #333;
+            font-size: 32px;
+          }
+          .top-phone {
+            font-size: 28px;
+            color: #333;
+            margin-left: 12px;
+          }
+        }
+        .right-bottom {
+          font-size: 28px;
+          color: #333;
+        }
+      }
+    }
+  }
+
+  .logistics-info-temp {
+    width: 100%;
+    height: 10px;
+    background-color: #fbfbfb;
+    margin-top: 50px;
+  }
+  .info-middle {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    // margin-top: 5px;
+    padding: 0 24px;
+    .middle-type {
+      font-size: 28px;
+      color: #333;
+    }
+    .middle-number {
+      margin-left: 12px;
+      font-size: 28px;
+      color: #333;
+    }
+  }
+  .info-bottom {
+    margin: 0 24px;
+    padding-top: 47px;
+    .bottom-status-item {
+      display: flex;
+      // margin: 0 24px;
+      margin-bottom: 37px;
+
+      .item-left {
+        display: flex;
+        flex-direction: column;
+        .item-left-top {
+          font-size: 26px;
+          color: #333;
+          width: max-content;
+        }
+        .item-left-bottom {
+          font-size: 24px;
+          color: #999;
+          margin-top: 5px;
+        }
+      }
+      .item-right {
+        display: flex;
+        flex-direction: column;
+        margin-left: 32px;
+        .item-right-top {
+          font-size: 28px;
+          color: #333;
+          font-weight: bold;
+        }
+        .item-right-bottom {
+          font-size: 24px;
+          color: #333;
+          margin-top: 5px;
+        }
+      }
+    }
+  }
+}

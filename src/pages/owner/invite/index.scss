@@ -1,0 +1,37 @@
+.invite{
+  margin-top: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .invite-bg{
+    width: 702px;
+    height: 60px;
+    position: absolute;
+    z-index: -10;
+  }
+  .invite-left{
+    display: flex;
+    align-items: center;
+    .tongzhi{
+      margin-left: 25px;
+    }
+    Text{
+      color: #E9BA87;
+      font-size: 26px;
+      margin-left: 18px;
+    }
+
+  }
+  .invite-right{
+    display: block;
+    border: none !important;
+    background: none;
+    margin-right: 5px;
+    font-size: 26px;
+    color: #523114;
+    height: 60px;
+  }
+  Button::after {
+    border: none;
+  }
+}

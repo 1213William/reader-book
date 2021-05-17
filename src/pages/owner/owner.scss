@@ -1,0 +1,28 @@
+.book-rack {
+  margin-bottom: 120px;
+  .book-wrapper {
+    width: 702px;
+    margin: 0 auto;
+    .service {
+      position: fixed;
+      bottom: 74px;
+      right: 24px;
+      height: 112px;
+      width: 112px;
+      border-radius: 50%;
+      background-color: #fff;
+      box-shadow: 0 2px 17px 1px #e9e9e9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .icon{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 14px;
+      }
+    }
+  }
+}

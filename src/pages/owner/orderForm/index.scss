@@ -1,0 +1,76 @@
+.order-form{
+  height: 328px;
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 2px 15px 1px #e9e9e9;
+  margin-top: 24px;
+  .order-form-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 22px;
+    .title{
+      font-size: 36px;
+      color: #333;
+      font-weight: bold;
+      margin-left: 26px;
+      // padding-top: 13px;
+    }
+    .title-check-all{
+      display: flex;
+      align-items: center;
+      margin-right: 10px;
+      Text{
+        font-size: 24px;
+        color: #999;
+        margin-right: 4px;
+      }
+    }
+  }
+  .order-form-desc{
+    display: flex;
+    margin-top: 49px;
+    justify-content: space-around;
+    .desc-temp{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      Text{
+        margin-top: 22px;
+        font-size: 28px;
+        color: #333;
+      }
+      .icon{
+        position: relative;
+        .dot{
+          position: absolute;
+          height: 28px;
+          width: 28px;
+          border-radius: 50%;
+          border: 2px solid #ff3b30;
+          color: #FF3B30;
+          font-size: 20px;
+          background-color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding: 0 3px;
+        }
+        .daizhifu{
+          top: -8px;
+          right: -10px;
+        }
+        .daishouhuo{
+          top: -8px;
+          right: -12px;
+        }
+        .daipingjia{
+          top: -8px;
+          right: -16px;
+        }
+      }
+    }
+  }
+}

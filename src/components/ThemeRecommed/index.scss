@@ -1,0 +1,81 @@
+.more-theme{
+  margin-top: 64px;
+  width: 100%;
+  .theme-title{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+    .theme-recommed-temp{
+      color: #999;
+      margin: 0 16px;
+    }
+    .title-name{
+      font-size: 44px;
+      color: #333333;
+      font-weight: bold;
+    }
+    .title-tag{
+      font-size: 24px;
+      color: #999999;
+
+    }
+  }
+  .theme-content-wrapper{
+    .theme-content{
+      height: 256px;
+      width: 100%;
+      background-color: #FFFFFF;
+      box-shadow: 0 2px 15px 1px #E9E9E9;
+      border-radius: 12px;
+      position: relative;
+      margin-bottom: 60px;
+      .theme-img{
+        height: 243px;
+        width: 182px;
+        border-radius: 8px;
+        position: absolute;
+        top: -25px;
+        left: 16px;
+        box-shadow: 0 2px 15px 1px #E9E9E9;
+      }
+      .content-wrapper{
+        position: absolute;
+        left: 214px;
+        top: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .wrapper-top{
+          .content-title{
+            font-size: 30px;
+            color: #333333;
+            font-weight: bold;
+
+          }
+          .content-subhead{
+            font-size: 26px;
+            color: #999999;
+            margin-top: 7px;
+          }
+        }
+        .wrapper-bottom{
+          display: flex;
+          flex-direction: row;
+          margin-top: 90px;
+
+          .book-count{
+            font-size: 26px;
+            color: #333333;
+          }
+          .book-reader{
+            font-size: 26px;
+            color: #5BB647;
+            margin-left: 24px;
+
+          }
+        }
+      }
+    }
+  }
+}

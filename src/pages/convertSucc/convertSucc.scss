@@ -1,0 +1,53 @@
+.convert-succ {
+  .wrapper {
+    width: 702px;
+    margin: 0 auto;
+    .header-img {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+      flex-direction: column;
+      .reader-pay-bg {
+        height: 226px;
+        width: 234px;
+      }
+      .convert-text{
+        margin-top: 23px;
+        font-size: 28px;
+        color: #999;
+      }
+    }
+
+    .button-list{
+      display: flex;
+      justify-content: space-around;
+      margin-top: 24px;
+      .return-page{
+        color: #0399FA;
+        font-size: 32px;
+        height: 76px;
+        width: 220px;
+        border-radius: 38px;
+        border: 1px solid #0399FA;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .check-order-form{
+        color: #fff;
+        font-size: 32px;
+        height: 76px;
+        width: 220px;
+        border-radius: 38px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #0399FA;
+      }
+    }
+  }
+}
+
+

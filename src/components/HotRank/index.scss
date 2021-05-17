@@ -1,0 +1,85 @@
+.hot-rank{
+  width: 100%;
+  .hot-rank-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+    .title-wrapper{
+      display: flex;
+      align-items: center;
+      .hot-rank-temp{
+        color: #999;
+        margin: 0 16px;
+      }
+      .title-sub{
+        font-size: 24px;
+        color: #999999;
+      }
+      .title-name{
+        font-size: 44px;
+        color: #333333;
+        font-weight: bold;
+      }
+    }
+    .title-tag{
+      display: flex;
+      align-items: center;
+      Text{
+        font-size: 24px;
+        color: #999999;
+        margin-right: 8px;
+      }
+
+    }
+  }
+  .hot-rank-wrapper{
+    display: flex;
+    justify-content: space-between;
+    .book-content{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      .book-img{
+        height: 280px;
+        width: 210px;
+        border-radius: 12px;
+      }
+      .book-text{
+        font-size: 28px;
+        color: #333333;
+        font-weight: bold;
+        margin-top: 10px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+        width: 210px;
+        text-align: center;
+      }
+      .tag1{
+        height: 37px;
+        width: 80px;
+        background-color: #FC4949;
+        box-shadow: 0 2px 5px 0 #8A8A8A;
+        font-size: 24px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: -10px;
+        left: 13px;
+        border-radius: 3px;
+
+      }
+      .tag2{
+        @extend .tag1;
+        background-color: #FC7A49;
+      }
+      .tag3{
+        @extend .tag1;
+        background-color: #FCBF49;
+      }
+    }
+  }
+}

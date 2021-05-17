@@ -1,0 +1,36 @@
+.join-member {
+  .wrapper {
+    width: 701px;
+    margin: 0 auto;
+    .member-view-img {
+      position: absolute;
+      width: 100%;
+      z-index: -20;
+      left: 0;
+      top: 0;
+      height: 200px;
+    }
+    .member-card-img {
+      width: 701px;
+      height: 320px;
+      z-index: -10;
+    }
+  }
+  // width: 701px;
+  // height: 320px;
+  // margin: 0 auto;
+  // .member-view-img {
+  //   position: absolute;
+  //   width: 100%;
+  //   z-index: -20;
+  //   left: 0;
+  //   top: 0;
+  //   height: 200px;
+  // }
+  // .member-card-img {
+  //   position: absolute;
+  //   width: 701px;
+  //   height: 320px;
+  //   z-index: -10;
+  // }
+}

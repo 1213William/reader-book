@@ -1,0 +1,31 @@
+.reader-assess{
+  // background: -webkit-linear-gradient(left, #A2D6FF, #3995FF);
+  border-radius: 12px;
+  margin-top: 64px;
+  height: 144px;
+  .assess-title{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 26px;
+    margin-left: 64px;
+    font-weight: bold;
+  }
+  .assess-choose{
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-left: 64px;
+    Text{
+      font-size: 26px;
+      color: #FFFFFF;
+      margin-right: 16px;
+    }
+  }
+  .assess-img{
+    width: 702px;
+    height: 144px;
+    position: absolute;
+    z-index: -10;
+  }
+}

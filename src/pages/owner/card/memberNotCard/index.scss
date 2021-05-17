@@ -1,0 +1,64 @@
+.member-not-card {
+  width: 701px;
+  height: 320px;
+  .member-bg {
+    position: absolute;
+    width: 701px;
+    height: 320px;
+    z-index: -10;
+  }
+  .not-member-info {
+    margin-left: 35px;
+    .info-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 27px;
+      .header-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        Text {
+          font-size: 28px;
+          color: #ffffff;
+          margin-left: 16px;
+        }
+        .member-logo {
+          width: 84px;
+          height: 84px;
+          border-radius: 50%;
+          border: 2px solid #ffffff;
+        }
+      }
+      .header-right {
+        color: #523114;
+        font-size: 30px;
+        height: 62px;
+        width: 171px;
+        border-radius: 34px;
+        background: -webkit-linear-gradient(left, #ffdeb8, #e0ac73);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 34px;
+      }
+    }
+    .info-middle {
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      Text{
+        font-size: 34px;
+        color: #fff;
+      }
+      .icon{
+        margin-left: 12px;
+      }
+    }
+    .info-bottom {
+      font-size: 24px;
+      color: #fff;
+      margin-top: 68px;
+    }
+  }
+}

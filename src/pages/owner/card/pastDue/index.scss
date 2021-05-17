@@ -1,0 +1,92 @@
+.past-due{
+  width: 701px;
+  height: 320px;
+  padding-bottom: 15px;
+  .member-view-img {
+    position: absolute;
+    width: 100%;
+    z-index: -20;
+    left: 0;
+    top: 0;
+    height: 220px;
+  }
+  .member-card-img {
+    position: absolute;
+    width: 701px;
+    height: 335px;
+    z-index: -10;
+  }
+  .past-due-header{
+    margin-left: 70px;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    .header-img{
+      width: 84px;
+      height: 84px;
+      border-radius: 50%;
+    }
+    .header-info{
+      margin-left: 16px;
+      .info-name{
+        font-size: 28px;
+        color: #333333;
+        font-weight: bold;
+      }
+      .info-temp{
+        display: flex;
+        align-items: center;
+        .temp-date{
+          color: #333333;
+          font-size: 22px;
+        }
+        .temp{
+          width: 1px;
+          height: 21px;
+          background-color: #ccc;
+          margin: 0 8px;
+        }
+        .temp-quanyi{
+          color: #333333;
+          font-size: 22px;
+        }
+      }
+    }
+  }
+  .past-due-middle{
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+    .middle-left{
+      display: flex;
+      align-items: center;
+      .left-count{
+        font-size: 34px;
+        color: #333333;
+        font-weight: bold;
+      }
+      .icon{
+        margin-left: 12px;
+      }
+    }
+    .middle-right{
+      height: 62px;
+      width: 171px;
+      border-radius: 31px;
+      background-color: #2B2F3E;
+      color: #fff;
+      margin-right: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+    }
+  }
+  .past-due-bottom{
+    margin-left: 70px;
+    color: #333;
+    font-size: 24px;
+    margin-top: 63px;
+  }
+}

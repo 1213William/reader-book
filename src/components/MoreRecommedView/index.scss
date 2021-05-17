@@ -1,0 +1,22 @@
+.more-recommed{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-bottom: 40px;
+  .temp{
+    height: 2px;
+    width: 179px;
+    background-color: #eee;
+  }
+  .tag{
+    color: #ccc;
+    font-size: 28px;
+  }
+  .temp-left{
+    margin-right: 34px;
+  }
+  .temp-right{
+    margin-left: 34px;
+  }
+}

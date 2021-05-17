@@ -1,0 +1,152 @@
+page{
+  background-color: #fff;
+}
+.search-page {
+  .search-wrapper {
+    width: 702px;
+    margin: 0 auto;
+    .search-header {
+      display: flex;
+      align-items: center;
+      position: relative;
+      margin-top: 20px;
+      .search-ipt {
+        width: 622px;
+        height: 60px;
+        border-radius: 30px;
+        background-color: #f3f4f6;
+        padding-left: 70px;
+        color: #222222;
+        font-size: 26px;
+        padding-right: 70px;
+      }
+      .search-cancle {
+        font-size: 28px;
+        color: #555555;
+        margin-left: 25px;
+        width: 80px;
+      }
+      .sousuo {
+        position: absolute;
+        margin-left: 25px;
+      }
+      .qingkong {
+        position: absolute;
+        right: 114px;
+      }
+    }
+    .search-content {
+      display: flex;
+      flex-direction: column;
+      margin-top: 70px;
+      .theme-content-search {
+        height: 256px;
+        width: 100%;
+        background-color: #ffffff;
+        box-shadow: 0 2px 15px 1px #e9e9e9;
+        border-radius: 12px;
+        position: relative;
+        margin-bottom: 60px;
+        .theme-img {
+          height: 243px;
+          width: 182px;
+          border-radius: 8px;
+          position: absolute;
+          top: -25px;
+          left: 16px;
+          box-shadow: 0 2px 15px 1px #e9e9e9;
+        }
+        .content-wrapper {
+          position: absolute;
+          left: 214px;
+          top: 14px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          .wrapper-top {
+            .content-title {
+              font-size: 30px;
+              color: #333333;
+              font-weight: bold;
+            }
+            .content-subhead {
+              font-size: 26px;
+              color: #999999;
+              margin-top: 7px;
+            }
+          }
+          .wrapper-bottom {
+            display: flex;
+            flex-direction: row;
+            margin-top: 90px;
+            .book-count {
+              font-size: 26px;
+              color: #333333;
+            }
+            .book-reader {
+              font-size: 26px;
+              color: #5bb647;
+              // margin-left: 24px;
+            }
+          }
+        }
+      }
+      .search-more {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        // align-items: center;
+        .temp {
+          display: flex;
+          width: 165px;
+          height: 1px;
+          background-color: #eeeeee;
+          margin-top: 20px;
+        }
+        .temp-text {
+          font-size: 28px;
+          color: #cccccc;
+        }
+      }
+    }
+  }
+  .search-none {
+    margin-bottom: 120px;
+    .none-hint {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 133px;
+      .none-img {
+        height: 209px;
+        width: 318px;
+      }
+      .none-text {
+        font-size: 28px;
+        color: #999999;
+      }
+    }
+    .more-recommed-search {
+      display: flex;
+      flex-direction: column;
+      .search-more {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+        // align-items: center;
+        .temp {
+          display: flex;
+          width: 165px;
+          height: 1px;
+          background-color: #eeeeee;
+          margin-top: 20px;
+        }
+        .temp-text {
+          font-size: 28px;
+          color: #cccccc;
+        }
+      }
+    }
+  }
+}
